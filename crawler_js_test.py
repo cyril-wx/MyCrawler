@@ -115,5 +115,6 @@ try:
 except Exception as e:
         print("Exception: Failed to login Baidu. -> ", e)
 # 最后不要忘记关闭driver
-driver.close()
+driver.close() 
+
 
